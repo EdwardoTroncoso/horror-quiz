@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/*
+    Horror Movie Quiz Page Style Sheet
+    Author: Edwardo Troncoso-Castro
+    Date:   2022-10-15
+
+    Filename: quiz.css
+*/
+
+
+/* HTML and Body Styles */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(./images/forest.jpg);
+}
+
+body {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 25px auto;
+    background-color: #7c0200;
+    opacity: 90%;
+}
+
+/* Paragraph Styles */
+
+p {
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+/* Heading Styles */
+
+body > header > h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+body > h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 38px;
+    margin-left: 20px;
+}
+
+h2#h2-reference {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Navigation/URL Styles */
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 41, 41);
+    text-decoration: underline;
+}
+
+/* List Styles */
+
+ol {
+    font-size: 32px;
+}
+
+ol > li >p {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol > ul {
+    list-style-type: none;
+    font-size: 28px;
+}
+
+ul > li {
+    margin-bottom: 15px;
+}
+
+ul > li > a {
+    font-size: 22px
+}
+
+ol#answer {
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+ul#reference-list {
+    list-style-image: url(./images/ghostface.png);
+}
+
+/* Image Styles */
+
+ul > img {
+    display: block;
+    float: right;
+    margin-right: 50px;
+}
+
+img#clown {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+img#jason {
+    margin-bottom: 15px;
+    margin-left: 150px;
+}
